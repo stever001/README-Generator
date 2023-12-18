@@ -91,6 +91,8 @@ const questions = [
     },
 ];
 // Prompt the user for information
+//"try" will detect any errors thrown in the block of code, and skip to the "catch" block
+//"catch" is the error handling of any problems in the code
 inquirer.prompt(questions).then((answers) => {
     try {
         // Generate the README content
