@@ -4,6 +4,19 @@ const inquirer = require('inquirer');
 
 // Generate README content
 function generateREADME(data) {
+    // Map license names to their corresponding badge URLs
+  const licenseBadges = {
+    MIT: 'https://img.shields.io/badge/License-MIT-blue.svg',
+    Apache: 'https://img.shields.io/badge/License-Apache-blue.svg',
+    GPL: 'https://img.shields.io/badge/License-GPL-blue.svg',
+    BSD: 'https://img.shields.io/badge/License-BSD-blue.svg',
+    None: 'https://img.shields.io/badge/License-None-lightgrey.svg',
+  };
+
+  // Get the license badge URL based on the user's selection
+  const licenseBadgeURL = licenseBadges[data.license];
+  
+  // Generate the README content based on the provided data
     return `
 # ${data.title}
 
