@@ -1,8 +1,8 @@
 
-# sdfg
+# README Generator
 
 ## Description
-sdfg
+You can quickly and easily generate a professional README.md file by using a command line applicationto generate one. This allows the project creator to devote more time to coding the project.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,10 +13,10 @@ sdfg
 - [Questions](#questions)
 
 ## Installation
-fsg
+Before using the README generator, make sure you have Node.js installed on your machine.  Required packages include ‘inquirer’ and ‘FS’. 
 
 ## Usage
-sfg
+Once all required packages have been installed, run the README generator by executing the following command:  “node index.js”.  Follow the user prompts in the command line to input information about your project.
 
 ## License
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -24,10 +24,10 @@ sfg
 This project is licensed under the MIT license.
 
 ## Contributing
-sdg
+N/A
 
 ## Tests
-sdg
+N/A
 
 ## Questions
-For questions, contact adsg. Visit [GitHub](https://github.com/sdg).
+For questions, contact steve17rouse@gmail.com. Visit [GitHub](https://github.com/stever001).
